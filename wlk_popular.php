@@ -7,7 +7,7 @@ $plugin['description'] = 'Logs articles for popularity.';
 
 $plugin['type'] = 0;
 
-@include_once('zem_tpl.php');
+@include_once(dirname(dirname(__FILE__)).'/zem_tpl.php');
 
 if (0) {
 ?>
